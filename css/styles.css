@@ -1,0 +1,128 @@
+/* Global */
+
+*{margin: 0;}
+
+body {
+    font-family: serif;
+    background-color: #3e3e3e;
+}
+
+
+/* header */
+
+#up {
+    background-color: #222222;
+    height: 71px;
+    text-align: right;
+}
+
+.logo {
+    float: left;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+#main-menu {
+    list-style: none;
+    text-align: center;
+}
+
+.main-menu-item {
+    display: inline-block;
+}
+
+.main-menu-item a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #3e3e3e;
+    padding: 7px;
+    margin: 15px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.main-menu-item a:hover {
+    background-color: #6d6d71;
+    color: #ffffff;
+}
+
+
+/* cover */
+
+.cover {
+    background: url(../images/53352532_2039864086050608_9164891470094663680_n.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    padding: 4%;
+}
+
+ .cover-dimmer {
+    background-color: hsla(0, 0%, 0%, 0.54);
+    border-radius: 6px;
+    margin-right: 1050px;
+    text-align: center;
+    padding: 5px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+
+/* Tracks */
+
+.tracks {
+    background-color: #3e3e3e;
+    width: 80%;
+    margin: auto;
+    padding-top: 2rem;
+    text-align: center; 
+}
+
+h2 {
+    padding-bottom: 0.5rem;
+    font-size: 2rem;
+    color: #dddddd;
+}
+
+.in-my-mind {
+    padding-bottom: 2rem;
+    color: #dddddd;
+}
+
+.track {
+    background-color: #3e3e3e;
+    float: left;
+    width: 27%;
+    border: solid 1px #000000;
+    margin: 1%;
+    padding: 2%;
+    border-radius: 3px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.7rem;
+    color: #dddddd;
+}
+
+.track-1 {
+    color: #dddddd;
+    margin-top: 5px;
+}
+
+.button-1 {
+    padding: .3rem;
+    margin-top: 10px;
+    font-size: 0.8rem;
+    color: #dddddd;
+    background-color: #2b2b2b;
+    border: 0;
+    border-radius: 3px;
+}
+
+.button-1:hover {
+    background-color: #131313;
+    color: #ffffff;
+}
