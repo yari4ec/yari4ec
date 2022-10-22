@@ -126,3 +126,73 @@ h3 {
     background-color: #131313;
     color: #ffffff;
 }
+
+
+/* clear float */
+
+.clear-float {
+    height: 1px;
+    clear: both;
+}
+
+
+/* associations */
+
+.associations {
+    color: #dddddd;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.assoc {
+    color: #dddddd;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+
+.foto {
+    background: url(../images/WEB_THNDR_TSHIRT_PC.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #dddddd;
+    padding: 4%;
+    border: solid 2px #000000;
+    border-radius: 2px;
+}
+
+ .rndm {
+    background-color: hsla(0, 0%, 0%, 0.54);
+    border-radius: 6px;
+    margin-left: 800px;
+    margin-right: 40px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding: 5px;
+}
+
+.clear {
+    height: 7px;
+}
+
+.mm {
+    background: url(../images/melone-music.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #000000;
+    padding: 4%;
+    border: solid 2px #000000;
+    border-radius: 2px;
+}
+
+.melon {
+    background-color: #bf4f29b0;
+    border-radius: 6px;
+    margin-left: 800px;
+    margin-right: 40px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding: 5px;
+}
