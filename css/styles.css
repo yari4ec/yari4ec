@@ -1,198 +1,305 @@
 /* Global */
 
-*{margin: 0;}
-
-body {
-    font-family: serif;
-    background-color: #3e3e3e;
+* {
+  margin: 0;
 }
 
+body {
+  font-family: serif;
+  background-color: #3e3e3e;
+}
+
+html {
+  scroll-behavior: smooth;
+}
 
 /* header */
 
 #up {
-    background-color: #222222;
-    height: 71px;
-    text-align: right;
+  background-color: #222222f4;
+  height: 51px;
+  width: 100%;
+  text-align: right;
+  position: fixed;
+  z-index: 2;
 }
 
 .logo {
-    float: left;
-    margin-left: 3px;
-    margin-top: 3px;
+  float: left;
+  margin-left: 3px;
+  margin-top: 3px;
+  border-radius: 50%;
+}
+
+.logo1 {
+  border-radius: 50%;
 }
 
 #main-menu {
-    list-style: none;
-    text-align: center;
+  list-style: none;
+  text-align: center;
 }
 
 .main-menu-item {
-    display: inline-block;
+  display: inline-block;
 }
 
 .main-menu-item a {
-    text-decoration: none;
-    color: #ffffff;
-    background-color: #3e3e3e;
-    padding: 7px;
-    margin: 15px;
-    border-radius: 3px;
-    display: inline-block;
+  text-decoration: none;
+  color: #dddddd;
+  background-color: #3e3e3e;
+  padding: 5px;
+  margin: 11px;
+  border-radius: 3px;
+  display: inline-block;
 }
 
 .main-menu-item a:hover {
-    background-color: #6d6d71;
-    color: #ffffff;
+  background-color: #6d6d71;
+  color: #ffffff;
 }
-
 
 /* cover */
 
-.cover {
-    background: url(../images/53352532_2039864086050608_9164891470094663680_n.jpg);
-    background-position: center;
-    background-size: cover;
-    color: #ffffff;
-    padding: 4%;
+#cover {
+  padding-top: 60px;
 }
 
- .cover-dimmer {
-    background-color: hsla(0, 0%, 0%, 0.54);
-    border-radius: 6px;
-    margin-right: 1050px;
-    text-align: center;
-    padding: 5px;
+.main {
+  background: url(../images/53352532_2039864086050608_9164891470094663680_n.jpg);
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+  padding: 4%;
+  border-radius: 2px;
+}
+
+.cover-dimmer {
+  background-color: hsla(0, 0%, 0%, 0.54);
+  border-radius: 6px;
+  margin-right: 1050px;
+  text-align: center;
+  padding: 5px;
 }
 
 h1 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
-
 
 /* Tracks */
 
 .tracks {
-    background-color: #3e3e3e;
-    width: 80%;
-    margin: auto;
-    padding-top: 2rem;
-    text-align: center; 
+  background-color: #3e3e3e;
+  width: 80%;
+  margin: auto;
+  padding-top: 2rem;
+  text-align: center;
 }
 
 h2 {
-    padding-bottom: 0.5rem;
-    font-size: 2rem;
-    color: #dddddd;
+  padding-bottom: 0.5rem;
+  font-size: 2rem;
+  color: #dddddd;
 }
 
 .in-my-mind {
-    padding-bottom: 2rem;
-    color: #dddddd;
+  padding-bottom: 2rem;
+  color: #dddddd;
 }
 
 .track {
-    background-color: #3e3e3e;
-    float: left;
-    width: 27%;
-    border: solid 1px #000000;
-    margin: 1%;
-    padding: 2%;
-    border-radius: 3px;
+  background-color: #3e3e3e;
+  float: left;
+  width: 27%;
+  border: solid 1px #000000;
+  margin: 1%;
+  padding: 2%;
+  border-radius: 3px;
 }
 
 h3 {
-    font-size: 1.5rem;
-    margin-bottom: 0.7rem;
-    color: #dddddd;
+  font-size: 1.5rem;
+  margin-bottom: 0.7rem;
+  color: #dddddd;
 }
 
 .track-1 {
-    color: #dddddd;
-    margin-top: 5px;
+  color: #dddddd;
+  margin-top: 5px;
 }
 
 .button-1 {
-    padding: .3rem;
-    margin-top: 10px;
-    font-size: 0.8rem;
-    color: #dddddd;
-    background-color: #2b2b2b;
-    border: 0;
-    border-radius: 3px;
+  padding: 0.3rem;
+  margin-top: 10px;
+  font-size: 0.8rem;
+  color: #dddddd;
+  background-color: #2b2b2b;
+  border: 0;
+  border-radius: 3px;
 }
 
 .button-1:hover {
-    background-color: #131313;
-    color: #ffffff;
+  background-color: #131313;
+  color: #ffffff;
 }
-
 
 /* clear float */
 
 .clear-float {
-    height: 1px;
-    clear: both;
+  height: 1px;
+  clear: both;
 }
-
 
 /* associations */
 
-.associations {
-    color: #dddddd;
-    margin-top: 3rem;
-    text-align: center;
+#associations {
+  color: #dddddd;
+  margin-top: 0.5rem;
+  text-align: center;
+  padding-top: 51px;
 }
 
 .assoc {
-    color: #dddddd;
-    text-align: center;
-    padding-top: 10px;
-    margin-bottom: 30px;
+  color: #dddddd;
+  margin: 10px 50px 30px 50px;
 }
 
 .foto {
-    background: url(../images/WEB_THNDR_TSHIRT_PC.jpg);
-    background-position: center;
-    background-size: cover;
-    color: #dddddd;
-    padding: 4%;
-    border: solid 2px #000000;
-    border-radius: 2px;
+  background: url(../images/WEB_THNDR_TSHIRT_PC.jpg);
+  background-position: 0 -70px;
+  background-size: cover;
+  color: #dddddd;
+  padding: 4%;
+  border: solid 2px #000000;
+  border-radius: 2px;
 }
 
- .rndm {
-    background-color: hsla(0, 0%, 0%, 0.54);
-    border-radius: 6px;
-    margin-left: 800px;
-    margin-right: 40px;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    text-align: center;
-    padding: 5px;
+.rndm {
+  background-color: hsla(0, 0%, 0%, 0.54);
+  border-radius: 6px;
+  margin-left: 800px;
+  margin-right: 40px;
+  margin-top: 0.5rem;
+  text-align: center;
+  padding: 5px;
 }
 
 .clear {
-    height: 7px;
+  height: 7px;
 }
 
 .mm {
-    background: url(../images/melone-music.jpg);
-    background-position: center;
-    background-size: cover;
-    color: #000000;
-    padding: 4%;
-    border: solid 2px #000000;
-    border-radius: 2px;
+  background: url(../images/melone-music.jpg);
+  background-position: center;
+  background-size: cover;
+  color: #000000;
+  padding: 4%;
+  border: solid 2px #000000;
+  border-radius: 2px;
 }
 
 .melon {
-    background-color: #bf4f29b0;
-    border-radius: 6px;
-    margin-left: 800px;
-    margin-right: 40px;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    text-align: center;
-    padding: 5px;
+  background-color: #bf4f29b0;
+  border-radius: 6px;
+  margin-left: 800px;
+  margin-right: 40px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  padding: 5px;
+}
+
+/* Biografia */
+
+.bio {
+  text-align: center;
+  margin-top: 0.5rem;
+  padding-top: 51px;
+}
+
+.names {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.bio1 {
+  text-align: left;
+  color: #dddddd;
+  margin: 10px 50px 30px 50px;
+}
+
+.budapest {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.imgimgimg {
+  border-radius: 3px;
+}
+
+.budapest:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.budapest span {
+  position: absolute;
+  margin-top: -314px;
+  margin-left: 1000px;
+  display: none;
+  animation: animate 1s ease-in-out;
+  z-index: 1;
+}
+
+.budapest:hover span {
+  display: block;
+}
+
+@keyframes animate {
+  0% {
+    margin-top: -400px;
+    opacity: 0;
+  }
+  100% {
+    margin-top: -314px;
+    opacity: 1;
+    display: block;
+  }
+}
+
+/* inspiration */
+
+.insp {
+  text-align: center;
+  margin-top: 0.4rem;
+  padding-top: 51px;
+}
+
+.guy {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.guys {
+  list-style: none;
+  text-align: left;
+  color: #dddddd;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10px;
+}
+
+.kum
+{
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.kum:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.kumirs {
+  margin-top: 30px;
 }
